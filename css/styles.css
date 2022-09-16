@@ -1,0 +1,802 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+html {font-size: 62.5%;}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100&family=Montserrat:wght@100&display=swap');
+
+@font-face {
+    font-family: "firaSans";
+    src: url(../asses/fonts/FiraSansExtraCondensed-Thin.ttf);
+}
+
+a{
+    text-decoration: none;
+    color:#212F3D;
+    font-size: 1.5em;
+    font-family: firaSans;
+}
+
+ul{
+    list-style: none;
+}
+
+/* GENERAL*/
+
+body{
+    background-color:#F5F5F5;
+    overflow-x: hidden;
+    }
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size:2rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p {
+    font-family: firaSans;
+    font-size: 2rem;
+    }
+
+section{
+    font-family: firaSans;
+    font-weight: bolder;
+    text-align: center;
+    color: #154360;
+}
+
+/*HEADER*/
+
+header {
+    background-color:#ABB2B9   ;
+    position: sticky;
+    top: 0em;
+}
+
+.logo{
+    padding-top: 0.1rem;
+    padding-right: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.posicionLogo{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+header nav ul li{
+    font-family: firaSans;
+    font-weight: bold;
+}
+
+/*FOOTER*/
+
+body footer {
+    font-family: "firaSans";
+    font-size: 1rem;
+    background-color:#ABB2B9;
+    height: 3rem;
+    margin-top: 0rem;
+}
+
+.footerNav{
+    color: #212F3D;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:flex-end;
+    height: 3rem;
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.copyright{
+    font-size: 1.5rem;
+}
+
+/*INDEX*/
+
+
+
+.fondoMainIndex {
+    background-image: url("../asses/img/IMG_0533.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 55rem ;
+    }
+
+.sectionIndex{
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    color:#212F3D;
+    text-align: left;
+}
+
+.subtituloIndex{
+    font-size: 1.2rem;
+}
+
+/*LAS FLORES*/
+
+.tituloLasFlores{
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+}
+video{
+    border-style: solid;
+    border-color: #ABB2B9;
+    border-width: 1 rem;
+    margin: 3rem 1rem 2rem 1rem;
+}
+
+.sectionUnoLasFlores{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.sectionDosLasFlores{
+    background-color: #E8DAEF;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.parrafoLasFlores{
+    font-size: 1.8rem;
+}
+
+.tituloSectionTresLasFlores{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #F5B7B1;
+}
+
+.listadoFlores{
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: left;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.margenListado{
+    margin: 1rem;
+    line-height: 2.5rem;
+}
+
+.margenListado:hover{
+    font-size: 2.3rem;
+    background-color: #FADBD8 ;
+}
+
+/*FORMULAS*/
+
+body main section div article a{
+    color:#F5F5F5;
+}
+
+body main section div article a:hover{
+    color:#154360;
+}
+
+.tituloFormulas{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.divFormulas{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+section div article p{
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+.subtituloFormulas{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+
+.sectionDosFormulas{
+    display:grid;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.tituloTimidez{
+    grid-area: tituloTimidez;
+    background-color: #A3E4D7;
+}
+
+.tituloAnsiedad{
+    grid-area:tituloAnsiedad;
+    background-color: #F9E79F;
+}
+
+.imagenAnsiedad{
+    grid-area: imagenAnsiedad;
+}
+
+.textoAnsiedad{
+    grid-area: textoAnsiedad;
+}
+
+.imagenTimidez{
+    grid-area: imagenTimidez;
+}
+
+.textoTimidez{
+    grid-area: textoTimidez;
+}
+
+.tituloInsomnio{
+    grid-area: tituloInsomnio;
+    background-color: #F5B7B1 ;
+}
+
+.tituloTristeza{
+    grid-area: tituloTristeza;
+    background-color: #D7BDE2
+}
+
+.textoInsomnio{
+    grid-area: textoInsomnio;
+}
+
+.imagenInsomnio{
+    grid-area:imagenInsomnio;
+}
+
+.textoTristeza{
+    grid-area:textoTristeza;
+}
+
+.imagenTristeza{
+    grid-area:imagenTristeza;
+}
+
+.tituloFrustracion{
+    grid-area:tituloFrustracion;
+    background-color: #A2D9CE ;
+}
+
+.tituloSeparacion{
+    grid-area:tituloSeparacion;
+    background-color: #EDBB99;
+}
+
+.textoFrustracion{
+    grid-area:textoFrustracion;
+}
+
+.imagenFrustracion{
+    grid-area:imagenFrustracion;
+}
+
+.textoSeparacion{
+    grid-area:textoSeparacion;
+}
+
+.imagenSeparacion{
+    grid-area:imagenSeparacion;
+}
+
+.tituloAprendizaje{
+    grid-area:tituloAprendizaje;
+    background-color: #7FB3D5;
+}
+
+.tituloMudanza{
+    grid-area:tituloMudanza;
+    background-color: #52BE80;
+}
+
+.textoAprendizaje{
+    grid-area:textoAprendizaje;
+}
+
+.imagenAprendizaje{
+    grid-area:imagenAprendizaje;
+}
+
+.textoMudanza{
+    grid-area:textoMudanza;
+}
+
+.imagenMudanza{
+    grid-area:imagenMudanza;
+}
+
+.tituloMSoledad{
+    grid-area:tituloMSoledad;
+    background-color: #DC7633;
+}
+
+.tituloMFracaso{
+    grid-area:tituloMFracaso;
+    background-color: #AAB7B8;
+}
+
+.imagenMSoledad{
+    grid-area:imagenMSoledad;
+}
+
+.textoMSoledad{
+    grid-area:textoMSoledad;
+}
+
+.textoMFracaso{
+    grid-area: textoMFracaso;
+}
+
+.imagenMFracaso{
+    grid-area:imagenMFracaso;
+}
+
+.tituloPesadillas{
+    grid-area: tituloPesadillas;
+    background-color: #F1948A;
+}
+
+.tituloEstres{
+    grid-area: tituloEstres;
+    background-color: #F7DC6F;
+}
+
+.textoPesadillas{
+    grid-area:textoPesadillas;
+}
+
+.imagenPesadillas{
+    grid-area:imagenPesadillas;
+}
+
+.textoEstres{
+    grid-area: textoEstres;
+}
+
+.imagenEstres{
+    grid-area: imagenEstres;
+}
+
+/*FAQ*/
+
+.tituloFaq{
+    font-size: 4rem;
+}
+
+.articleFaq{
+    margin: 0rem;
+    padding: 1rem;
+    text-align: center;
+    color: #EBEDEF;
+}
+
+.sectionFaq{
+    background-image: url(../asses/img/flor.JPG);
+    background-repeat: repeat;
+    background-size:cover;
+    padding-bottom: 2rem;
+}
+
+
+.divFaq{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+/*CONTACTO*/
+
+.tituloContacto{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+main section article iframe{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ordenContacto{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.formulario {
+    margin-top: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-style: solid;
+    border-color: #ABB2B9;
+    border-width: 2px;
+    background-color: #E5E8E8 ;
+}
+
+.margenh3{
+    margin-bottom: 2rem;
+    text-align: center ;
+}
+
+.redes{
+    text-align: center;
+}
+
+.subtituloContacto{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+
+/*GENERAL*/
+
+    p {
+        text-align: center;
+        padding-left: 0em;
+    }
+/*HEADER*/
+    header nav ul li{
+        margin-left: 0.2em;
+    }
+
+    .logo{
+        padding-left: 1rem;
+    }
+
+    header nav ul li{
+        padding-right: 1rem;
+    }
+
+/*FOOTER*/
+
+    .footerNav{
+        padding-right: 1rem; 
+    }
+
+    .copyright{
+        padding-left: 1rem;
+    }
+
+    /*PAGINA LAS FLORES*/
+
+    .sectionUnoLasFlores{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    video{
+        width: 50%;
+        height: 50%
+    }
+
+
+/*PAGINA FORMULAS*/
+
+    .section div article p{
+        font-size: 0.2 rem;
+    }
+
+    .divFormulas{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .sectionDosFormulas{
+        grid-template-columns: 30rem;
+        grid-template-rows: 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem;
+        grid-template-areas: 
+        "tituloTimidez"
+        "imagenTimidez" 
+        "textoTimidez" 
+        "tituloAnsiedad"
+        "imagenAnsiedad"
+        "textoAnsiedad"
+        "tituloInsomnio" 
+        "imagenInsomnio"
+        "textoInsomnio"
+        "tituloTristeza"
+        "imagenTristeza"
+        "textoTristeza"
+        "tituloFrustracion" 
+        "imagenFrustracion" 
+        "textoFrustracion"
+        "tituloSeparacion"
+        "imagenSeparacion"
+        "textoSeparacion" 
+        "tituloAprendizaje" 
+        "imagenAprendizaje" 
+        "textoAprendizaje" 
+        "tituloMudanza"
+        "imagenMudanza"
+        "textoMudanza"
+        "tituloMSoledad" 
+        "imagenMSoledad"
+        "textoMSoledad"  
+        "tituloMFracaso"
+        "imagenMFracaso"
+        "textoMFracaso"
+        "tituloPesadillas" 
+        "imagenPesadillas"
+        "textoPesadillas" 
+        "tituloEstres"
+        "imagenEstres"
+        "textoEstres" ;
+        justify-items: center;
+    }
+
+     /*FAQ*/
+
+     .articleFaq{
+        width: 20rem;
+    }
+
+    /*CONTACTO*/
+
+    main section article iframe{
+        height: 50%;
+        width: 50%;
+    }
+
+    .ordenContacto{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+
+    /*GENERAL*/
+
+    p {
+        text-align: center;
+        padding-left: 0.5em;
+        }
+
+    /*HEADER*/
+    header nav ul li{
+        margin-left: 0.2em;
+        }
+    
+    .logo{
+        padding-left: 1rem;
+        }
+    
+    header nav ul li{
+        padding-right: 1rem;
+        }
+
+    /*FOOTER*/
+
+    .footerNav{
+        padding-right: 1rem; 
+    }
+
+    .copyright{
+        padding-left: 1rem;
+    }
+
+    /*LAS FLORES*/
+
+    .sectionUnoLasFlores{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    /*PAGINA FORMULAS*/
+
+    .section div article p{
+        font-size: 1rem;
+    }
+
+    .divFormulas{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .sectionDosFormulas{
+        grid-template-columns: 16rem 40rem;
+        grid-template-rows: 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem;
+        grid-template-areas: 
+        "tituloTimidez tituloTimidez"
+        "imagenTimidez textoTimidez" 
+        "tituloAnsiedad tituloAnsiedad"
+        "imagenAnsiedad textoAnsiedad "
+        "tituloInsomnio tituloInsomnio" 
+        "imagenInsomnio textoInsomnio"
+        "tituloTristeza tituloTristeza"
+        "imagenTristeza textoTristeza "
+        "tituloFrustracion tituloFrustracion" 
+        "imagenFrustracion textoFrustracion"
+        "tituloSeparacion tituloSeparacion"
+        "imagenSeparacion textoSeparacion"
+        "tituloAprendizaje tituloAprendizaje" 
+        "imagenAprendizaje textoAprendizaje" 
+        "tituloMudanza tituloMudanza"
+        "imagenMudanza textoMudanza"
+        "tituloMSoledad tituloMSoledad" 
+        "imagenMSoledad textoMSoledad"  
+        "tituloMFracaso tituloMFracaso"
+        "imagenMFracaso textoMFracaso"
+        "tituloPesadillas tituloPesadillas" 
+        "imagenPesadillas textoPesadillas" 
+        "tituloEstres tituloEstres"
+        "imagenEstres textoEstres";
+    }
+    
+    /*FAQ*/
+
+    .articleFaq{
+        width: 30rem;
+    }
+
+    /*CONTACTO*/
+
+    .ordenContacto{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    main section article iframe{
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    /*GENERAL*/
+
+    p {
+        text-align: left;
+        padding-left: 0.5em;
+        }
+
+    /*HEADER*/
+    header nav ul li{
+        margin-left: 2em;
+    }
+
+    .logo{
+        padding-left: 3rem;
+    }
+
+    header nav ul li{
+        padding-right: 3rem;
+    }
+
+    /*FOOTER*/
+
+    .footerNav{
+        padding-right: 3rem; 
+    }
+
+    .copyright{
+        padding-left: 3rem;
+    }
+
+    /*PAGINA FLORES*/
+
+    .sectionUnoLasFlores{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .tituloLasFlores{
+        padding-left: 10rem;
+    }
+
+    .sectionDosLasFlores{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    /*PAGINA FORMULAS*/
+    
+    .sectionDosFormulas{
+        grid-template-columns: 16rem 40rem 40rem 16rem;
+        grid-template-rows: 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem;
+        grid-template-areas: 
+        "tituloTimidez tituloTimidez tituloAnsiedad tituloAnsiedad"
+        "imagenTimidez textoTimidez  textoAnsiedad imagenAnsiedad"
+        "tituloInsomnio tituloInsomnio tituloTristeza tituloTristeza"
+        "imagenInsomnio textoInsomnio textoTristeza imagenTristeza"
+        "tituloFrustracion tituloFrustracion tituloSeparacion tituloSeparacion"
+        "imagenFrustracion textoFrustracion  textoSeparacion imagenSeparacion"
+        "tituloAprendizaje tituloAprendizaje tituloMudanza tituloMudanza"
+        "imagenAprendizaje textoAprendizaje textoMudanza imagenMudanza "
+        "tituloMSoledad tituloMSoledad tituloMFracaso tituloMFracaso"
+        "imagenMSoledad textoMSoledad  textoMFracaso imagenMFracaso"
+        "tituloPesadillas tituloPesadillas tituloEstres tituloEstres"
+        "imagenPesadillas textoPesadillas textoEstres imagenEstres";
+    }
+
+    .section div article p{
+        font-size: 2rem;
+    }
+    .divFormulas{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /*FAQ*/
+
+    .articleFaq{
+        width: 60rem;
+        line-height: 3rem; 
+    }
+    
+    .tituloFaq{
+        font-size: 4rem;
+    }
+
+    /*CONTACTO*/
+
+    .redes{
+        margin-left: 5rem;
+    }
+
+    .ordenContacto{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    main section article iframe{
+        margin-left: 4rem;
+    }
+
+}
+
