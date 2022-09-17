@@ -16,6 +16,11 @@ a{
     color:#212F3D;
     font-size: 1.5em;
     font-family: firaSans;
+    transition: 0.6s;
+}
+
+a:hover{
+    color:#E5E8E8;
 }
 
 ul{
@@ -149,16 +154,28 @@ body footer {
 
 /*LAS FLORES*/
 
+@keyframes tituloFlores{
+    0%{transform: scale(1,1);}
+    50%{transform: scale(1.2,1.2);
+    color: #BB8FCE ;}
+    100%{transform: scale(1,1);}
+}
+
 .tituloLasFlores{
     text-align: center;
     font-weight: bold;
     font-size: 5rem;
+    animation-name: tituloFlores;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
 }
 video{
     border-style: solid;
     border-color: #ABB2B9;
     border-width: 1 rem;
     margin: 3rem 1rem 2rem 1rem;
+    box-shadow: 0.5em 0.5em 0.3em 0.4em #E8DAEF;
 }
 
 .sectionUnoLasFlores{
@@ -198,6 +215,7 @@ video{
 .margenListado{
     margin: 1rem;
     line-height: 2.5rem;
+    transition: all 1s;
 }
 
 .margenListado:hover{
