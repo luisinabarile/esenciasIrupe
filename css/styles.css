@@ -156,15 +156,16 @@ body footer {
 
 @keyframes tituloFlores{
     0%{transform: scale(1,1);}
-    50%{transform: scale(1.2,1.2);
-    color: #BB8FCE ;}
+    50%{transform: scale(1.1,1.1);
+    color: #BB8FCE ;
+    font-weight: lighter;}
     100%{transform: scale(1,1);}
 }
 
 .tituloLasFlores{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-weight: bold;
-    font-size: 5rem;
+    font-size: 2rem;
     animation-name: tituloFlores;
     animation-duration: 2.5s;
     animation-delay: 0.5s;
