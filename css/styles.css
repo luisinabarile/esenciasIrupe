@@ -8,7 +8,7 @@ html {font-size: 62.5%;}
 
 @font-face {
     font-family: "firaSans";
-    src: url(../asses/fonts/FiraSansExtraCondensed-Thin.ttf);
+    src: url(../assets/fonts/FiraSansExtraCondensed-Thin.ttf);
 }
 
 a{
@@ -62,6 +62,13 @@ header {
     background-color:#ABB2B9   ;
     position: sticky;
     top: 0em;
+}
+
+.tituloIrupe{
+    color:#212F3D;
+    font-size: 2rem;
+    font-family: firaSans;
+    font-weight: bolder;
 }
 
 .logo{
@@ -133,53 +140,24 @@ body footer {
 
 
 .fondoMainIndex {
-    background-image: url("../asses/img/IMG_0533.jpg");
+    background-image: url("../assets/img/DSCN6357C.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 55rem ;
     }
 
-.sectionIndex{
-    position: absolute;
-    top: 6rem;
-    left: 3rem;
-    color:#212F3D;
-    text-align: left;
-}
-
-.subtituloIndex{
-    font-size: 1.2rem;
-}
 
 /*LAS FLORES*/
 
-@keyframes tituloFlores{
-    0%{transform: scale(1,1);}
-    50%{transform: scale(1.1,1.1);
-    color: #BB8FCE ;
-    font-weight: lighter;}
-    100%{transform: scale(1,1);}
-}
-
 .tituloLasFlores{
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 2rem;
-    animation-name: tituloFlores;
-    animation-duration: 2.5s;
-    animation-delay: 0.5s;
-    animation-iteration-count: infinite;
+    font-size: 3.5rem;
+    margin:2rem;
 }
-video{
-    border-style: solid;
-    border-color: #ABB2B9;
-    border-width: 1 rem;
-    margin: 3rem 1rem 2rem 1rem;
-    box-shadow: 0.5em 0.5em 0.3em 0.4em #E8DAEF;
-}
+    
 
-.sectionUnoLasFlores{
+.seccionUnoLasFlores{
     display:flex;
     justify-content:center;
     align-items: center;
@@ -226,13 +204,6 @@ video{
 
 /*FORMULAS*/
 
-body main section div article a{
-    color:#F5F5F5;
-}
-
-body main section div article a:hover{
-    color:#154360;
-}
 
 .tituloFormulas{
     padding-bottom: 2rem;
@@ -251,10 +222,20 @@ section div article p{
     margin-right: 0rem;
 }
 
+@keyframes tituloFormulas{
+    0%{transform: scale(1,1);}
+    50%{transform: scale(1.1,1.1);}
+    100%{transform: scale(1,1);}
+}
+
 .subtituloFormulas{
     margin-top: 4rem;
     margin-bottom: 4rem;
     font-size: 2rem;
+    animation-name: tituloFormulas ;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
 }
 
 .sectionDosFormulas{
@@ -424,6 +405,7 @@ section div article p{
 
 .tituloFaq{
     font-size: 4rem;
+    grid-area: faq;
 }
 
 .articleFaq{
@@ -434,20 +416,74 @@ section div article p{
 }
 
 .sectionFaq{
-    background-image: url(../asses/img/flor.JPG);
+    background-image: url(../assets/img/flor.JPG);
     background-repeat: repeat;
     background-size:cover;
     padding-bottom: 2rem;
 }
 
 
-.divFaq{
+/*.divFaq{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
+}*/
+
+.divFaq{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr ;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+    "faq faq "
+    "pregUno pregDos"
+    "pregTres pregCuatro"
+    "pregCinco pregSeis "
+    "pregSiete pregOcho";
+}
+
+.fotoUno{
+    grid-area: fotoUno;
+}
+
+.pregUno{
+    grid-area: pregUno;
+}
+
+.pregDos{
+    grid-area: pregDos;
+}
+
+.fotoDos{
+    grid-area: fotoDos;
+}
+
+.pregTres{
+    grid-area: pregTres;
+}
+
+.pregCuatro{
+    grid-area: pregCuatro;
+}
+
+.pregCinco{
+    grid-area: pregCinco;
+}
+
+.pregSeis{
+    grid-area: pregSeis;
+}
+
+.pregSiete{
+    grid-area: pregSiete;
+}
+
+.pregOcho{
+    grid-area: pregOcho;
 }
 
 /*CONTACTO*/
@@ -530,14 +566,14 @@ main section article iframe{
 
     /*PAGINA LAS FLORES*/
 
-    .sectionUnoLasFlores{
+    .seccionUnoLasFlores{
         flex-direction: column;
         flex-wrap: nowrap;
     }
 
-    video{
-        width: 50%;
-        height: 50%
+    .fotosCelular{
+        width: 65%;
+        height: 65%;
     }
 
 
@@ -551,6 +587,11 @@ main section article iframe{
         flex-direction: column;
         flex-wrap: nowrap;
     }
+
+    body main section div article a{
+        color:#154360;
+    }
+
 
     .sectionDosFormulas{
         grid-template-columns: 30rem;
@@ -650,11 +691,12 @@ main section article iframe{
 
     /*LAS FLORES*/
 
-    .sectionUnoLasFlores{
+    .seccionUnoLasFlores{
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    
+
+
     /*PAGINA FORMULAS*/
 
     .section div article p{
@@ -664,6 +706,10 @@ main section article iframe{
     .divFormulas{
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+
+    body main section div article a{
+        color:#154360;
     }
 
     .sectionDosFormulas{
@@ -749,13 +795,9 @@ main section article iframe{
 
     /*PAGINA FLORES*/
 
-    .sectionUnoLasFlores{
+    .seccionUnoLasFlores{
         flex-direction: row;
         flex-wrap: nowrap;
-    }
-
-    .tituloLasFlores{
-        padding-left: 10rem;
     }
 
     .sectionDosLasFlores{
@@ -763,6 +805,14 @@ main section article iframe{
         padding-right: 6rem;
     }
     /*PAGINA FORMULAS*/
+
+    body main section div article a{
+        color:#F5F5F5;
+    }
+    
+    body main section div article a:hover{
+        color:#154360;
+    }
     
     .sectionDosFormulas{
         grid-template-columns: 16rem 40rem 40rem 16rem;
