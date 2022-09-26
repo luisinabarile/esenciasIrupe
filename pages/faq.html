@@ -8,17 +8,18 @@
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Irupé Esencias Florares</title>
 </head>
-<body >
-    <header>
+<body>
+    <header >
         <nav>
             <a class="posicionLogo" href="../index.html">
                 <img src="../assets/img/LOGOSINFONDO.png" alt= "Logo Irupé" width="50rem" height="50rem" class="logo">
-                <p class="tituloIrupe"> ESENCIAS IRUPÉ</p>
+                <p class="tituloIrupe marginCero"> ESENCIAS IRUPÉ</p>
             </a>
-            <ul>
+            <ul class="marginCero">
                 <li> <a href="./lasflores.html"> LAS FLORES </a></li>
                 <li> <a href="./formulas.html">FORMULAS</a>  </li>
                 <li><a href="#">FAQ</a>  </li>
@@ -27,42 +28,47 @@
         </nav>
     </header>
     <main>
-        <section class="sectionFaq">
-            <div class="divFaq animate__animated animate__fadeIn">
-                <h2 class="tituloFaq articleFaq">PREGUNTAS FRECUENTES</h2>
-                <article class="articleFaq pregUno">
-                    <h3>¿CÓMO SE UTILIZAN? </h3>
-                    <p>Cuatro gotas debajo de la lengua cuatro veces por día.</p>
-                </article>
-                <article class="articleFaq pregDos">
-                    <h3>¿LAS FLORES TIENEN CONTRAINDICACIONES? </h3>
-                    <p>No </p>
-                </article>
-                <article class="articleFaq pregTres">
-                    <h3>¿PUEDO USARLAS PARA MIS MASCOTAS? </h3>
-                    <p>Sí, de hecho responden muy bien a su uso.</p> 
-                </article> 
-                <article class="articleFaq pregCuatro">
-                    <h3>¿PUEDEN USARLAS LOS NIÑOS? ¿Y LAS EMBARAZADAS?</h3>  
-                    <p>Ambos grupos pueden utilizarlas.</p> 
-                </article>
-                <article class="articleFaq pregCinco">
-                    <h3>¿SE REALIZAN ENVÍOS?</h3> 
-                    <p>Sí, el mismo es sin cargo en Bariloche y varía el costo a otras partes del país. </p>
-                </article>
-                <article class="articleFaq pregSeis">
-                    <h3>¿CUÁNTO DURAN LOS PREPARADOS?</h3> 
-                    <p>Entre 15 y 30 días. 
-                </article>
-                <article class="articleFaq pregSiete">
-                    <h3>¿QUÉ VOLUMEN TIENE CADA PREPARADO?</h3>
-                    <p>30 ml</p>
-                </article>
-                <article class="articleFaq pregOcho">
-                    <h3>¿CÓMO PIDO MI PREPARADO PERSONALIZADO?</h3>
-                    <p>A través de whatsapp manifestando la situación particular</p>
-                </article>
+        <section>
+            <h2 class="tituloFaq container-fluid">PREGUNTAS FRECUENTES</h2>
+            <div class="sectionFaq divFaq">
+                <img class="fotoFaq" src="../assets/img/heuchera.jpg">
+                <div class="articleFaq pregUno">
+                    <h3 class="subtituloFaq" >¿CÓMO SE UTILIZAN? </h3>
+                    <p class="pFaq">Cuatro gotas debajo de la lengua cuatro veces por día.</p>
+                </div>
+                <div class="articleFaq pregDos">
+                    <h3 class="subtituloFaq">¿LAS FLORES TIENEN CONTRAINDICACIONES? </h3>
+                    <p class="pFaq">No </p>
+                </div>
+                <div class="articleFaq pregTres">
+                    <h3 class="subtituloFaq">¿PUEDO USARLAS PARA MIS MASCOTAS? </h3>
+                    <p class="pFaq">Sí, de hecho responden muy bien a su uso.</p> 
+                </div> 
+                <div class="articleFaq pregCuatro">
+                    <h3 class="subtituloFaq">¿PUEDEN USARLAS LOS NIÑOS? ¿Y LAS EMBARAZADAS?</h3>  
+                    <p class="pFaq">Ambos grupos pueden utilizarlas.</p> 
+                </div>
+                <div class="articleFaq pregCinco">
+                    <h3 class="subtituloFaq">¿SE REALIZAN ENVÍOS?</h3> 
+                    <p class="pFaq">Sí, el mismo es sin cargo en Bariloche y varía el costo a otras partes del país. </p>
+                </div>
+                <div class="articleFaq pregSeis">
+                    <h3 class="subtituloFaq">¿CUÁNTO DURAN LOS PREPARADOS?</h3> 
+                    <p class="pFaq">Entre 15 y 30 días. 
+                </div>
+                <div class="articleFaq pregSiete">
+                    <h3 class="subtituloFaq">¿QUÉ VOLUMEN TIENE CADA PREPARADO?</h3>
+                    <p class="pFaq">30 ml</p>
+                </div>
+                <div class="articleFaq pregOcho">
+                    <h3 class="subtituloFaq">¿CÓMO PIDO MI PREPARADO PERSONALIZADO?</h3>
+                    <p class="pFaq">A través de whatsapp manifestando la situación particular</p>
+                </div>
+                <img class="fotoFaqDos" src="../assets/img/heuchera.jpg">
             </div>
+                <div class="articleFaq pregNueve container-fluid">
+                    <h3 class="subtituloFaq">¡ENVIANOS CUALQUIER OTRA CONSULTA POR NUESTROS MEDIOS DE CONTACTO!</h3>
+                </div>
         </section>
     </main>
     <footer class="footer">
@@ -80,6 +86,7 @@
             </a>
         </nav>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
 </html>
