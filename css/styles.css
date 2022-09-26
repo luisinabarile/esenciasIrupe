@@ -135,6 +135,8 @@ body footer {
 
 .copyright{
     font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 0;
 }
 
 /*INDEX*/
@@ -163,8 +165,7 @@ body footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
     background-color: #E8DAEF ;
-}
-    
+}   
 
 .seccionUnoLasFlores{
     display:flex;
@@ -417,11 +418,6 @@ section div div p{
 
 /*FAQ*/
 
-/*
-.centrado{
-    text-align: center;
-}*/
-
 .subtituloFaq{
     font-weight: bold;
 }
@@ -431,7 +427,6 @@ section div div p{
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 0;
-    /*grid-area: tituloFaq;*/
     color: #E5E8E8;
 }
 
@@ -508,11 +503,6 @@ section div div p{
     background-color: #E8DAEF ;
 }
 
-main section article iframe{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 .ordenContacto{
     display: flex;
     justify-content: center ;
@@ -550,6 +540,10 @@ main section article iframe{
     animation-duration: 2.5s;
     animation-delay: 0.5s;
     animation-iteration-count: infinite;
+}
+
+.mapa{
+    margin: 1em;
 }
 
 @media screen and (max-width: 576px) {
@@ -605,19 +599,10 @@ main section article iframe{
 
 /*PAGINA FORMULAS*/
 
-    .section div article p{
-        font-size: 0.2 rem;
-    }
-
     .divFormulas{
         flex-direction: column;
         flex-wrap: nowrap;
     }
-
-    body main section div article a{
-        color:#154360;
-    }
-
 
     .sectionDosFormulas{
         grid-template-columns: 30rem;
@@ -668,12 +653,6 @@ main section article iframe{
 
     /*FAQ*/
 
-    /*.articleFaq{
-        padding: 1rem;
-        font-size: 10px;
-        font-weight: bold;
-    }*/
-
     .subtituloFaq{
         font-size: 1.5em;
         font-weight: bold;
@@ -684,12 +663,6 @@ main section article iframe{
         font-size: 1.5em ;
         margin: 0.5em;
     }
-/*
-    .articleFaqT{
-        /*padding: 1rem;
-        font-size: 1em;
-    }
-*/
 
     .tituloFaq{
         font-size: 2em;
@@ -763,11 +736,7 @@ main section article iframe{
     header nav ul li{
         padding-right: 1rem;
         }
-/*
-    a{
-            font-size: 1em;
-        }
-*/
+
     .tituloIrupe{
             font-size: 1.5rem;
         }
@@ -805,10 +774,6 @@ main section article iframe{
     .divFormulas{
         flex-direction: column;
         flex-wrap: nowrap;
-    }
-
-    body main section div article a{
-        color:#154360;
     }
 
     .sectionDosFormulas{
@@ -889,9 +854,6 @@ main section article iframe{
         align-items: flex-start;
     }
 
-    main section article iframe{
-        width: 70%;
-    }
 }
 
 
@@ -902,11 +864,6 @@ main section article iframe{
         text-align: center;
         padding-left: 0.5em;
         }
-
-    /*HEADER*/
-    /*header nav ul li{
-        margin-left: 2em;
-    }*/
 
     .logo{
         margin-left: 2rem;
@@ -1018,10 +975,6 @@ main section article iframe{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-    }
-
-    main section article iframe{
-        margin-left: 4rem;
     }
 
 }
