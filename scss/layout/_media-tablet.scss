@@ -1,0 +1,107 @@
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /*MAIN*/
+
+    .fondoMainIndex div{
+        position: fixed;
+        top: 14em;
+        left: 20em;
+    }
+
+    /*LAS FLORES*/
+
+    .fotosCelularDos{
+        display: none;
+    }
+
+    /*PAGINA FORMULAS*/
+
+    .divFormulas{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-items: center;
+        div a{
+            font-size: 1.8rem;
+            text-align: center;
+            color: $color-letra-principal
+        }
+    }
+
+    .sectionDosFormulas{
+        grid-template-columns: 16rem 40rem;
+        grid-template-rows: 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem;
+        grid-template-areas: 
+        "tituloTimidez tituloTimidez"
+        "imagenTimidez textoTimidez" 
+        "tituloAnsiedad tituloAnsiedad"
+        "imagenAnsiedad textoAnsiedad "
+        "tituloInsomnio tituloInsomnio" 
+        "imagenInsomnio textoInsomnio"
+        "tituloTristeza tituloTristeza"
+        "imagenTristeza textoTristeza "
+        "tituloFrustracion tituloFrustracion" 
+        "imagenFrustracion textoFrustracion"
+        "tituloSeparacion tituloSeparacion"
+        "imagenSeparacion textoSeparacion"
+        "tituloAprendizaje tituloAprendizaje" 
+        "imagenAprendizaje textoAprendizaje" 
+        "tituloMudanza tituloMudanza"
+        "imagenMudanza textoMudanza"
+        "tituloMSoledad tituloMSoledad" 
+        "imagenMSoledad textoMSoledad"  
+        "tituloMFracaso tituloMFracaso"
+        "imagenMFracaso textoMFracaso"
+        "tituloPesadillas tituloPesadillas" 
+        "imagenPesadillas textoPesadillas" 
+        "tituloEstres tituloEstres"
+        "imagenEstres textoEstres";
+    }
+    /*FAQ*/
+
+    
+    .divFaq{
+        background-image: url(../assets/img/fondofloresfaq.jpg);
+        padding: 0.5em;
+        grid-template-columns: 5fr 5fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr;
+        align-items: center;
+        grid-template-areas:
+        " pregUno pregDos "
+        " pregTres pregCuatro"
+        " pregCinco pregSeis"
+        " pregSiete pregOcho";
+        div {
+            h3{
+                font-size: 1.5em;
+                margin: 0.5em;
+                text-align: center;
+            }
+            p{
+                font-size: 1.5em ;
+                margin: 0.5em;
+                text-align: center;
+            }
+        }
+    }
+
+    
+    .fotoFaq{
+        display: none;
+    }
+
+    .fotoFaqDos{
+        display: none;
+    }
+
+/*CONTACTO*/
+
+.ordenContacto div iframe{
+    width: 80%;
+}
+
+.formulario {
+    margin-left: 0rem;
+}
+
+}

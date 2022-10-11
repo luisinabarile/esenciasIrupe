@@ -1,0 +1,8 @@
+@mixin propiedades-flex ($direction, $justify, $align,$justifyi,$aligni) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-content: $align;
+    justify-items: $justifyi;
+    align-items: $aligni;
+}

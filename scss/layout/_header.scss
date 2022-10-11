@@ -1,0 +1,33 @@
+header {
+    background-color: $background-header;
+    top: 0em;
+    width: 100%;
+    position: sticky;
+    font-family: $fuente-principal ;
+    color: $color-letra-principal;
+    font-size: $tamano-letra-header;
+    a{
+        text-decoration: none;
+        font-family: $fuente-principal ;
+        color: $color-letra-principal;
+        font-size: $tamano-letra-header;
+    }
+}
+
+.tituloLogo{
+    font-family: $fuente-logo ;
+    color: $color-letra-principal;
+    font-size: 2.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+@media screen and (max-width: 576px) {
+
+    
+    /*MAIN*/
+
+    .fondoMainIndex div{
+        position: fixed;
+        top: 10em;
+        left: 10em;
+    }
+
+    /*PAGINA LAS FLORES*/
+
+    .fotosCelular{
+        display: none;
+    }
+
+    .fotosCelularDos{
+        display: none;
+    }
+
+    .tituloFaq{
+        font-size: 2em;
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+
+/*PAGINA FORMULAS*/
+
+    .divFormulas{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-items: center;
+        div a{
+            font-size: 1.8rem;
+            text-align: center;
+            color: $color-letra-principal
+        }
+    }
+
+    .sectionDosFormulas{
+        grid-template-columns: 30rem;
+        grid-template-rows: 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem;
+        grid-template-areas: 
+        "tituloTimidez"
+        "imagenTimidez" 
+        "textoTimidez" 
+        "tituloAnsiedad"
+        "imagenAnsiedad"
+        "textoAnsiedad"
+        "tituloInsomnio" 
+        "imagenInsomnio"
+        "textoInsomnio"
+        "tituloTristeza"
+        "imagenTristeza"
+        "textoTristeza"
+        "tituloFrustracion" 
+        "imagenFrustracion" 
+        "textoFrustracion"
+        "tituloSeparacion"
+        "imagenSeparacion"
+        "textoSeparacion" 
+        "tituloAprendizaje" 
+        "imagenAprendizaje" 
+        "textoAprendizaje" 
+        "tituloMudanza"
+        "imagenMudanza"
+        "textoMudanza"
+        "tituloMSoledad" 
+        "imagenMSoledad"
+        "textoMSoledad"  
+        "tituloMFracaso"
+        "imagenMFracaso"
+        "textoMFracaso"
+        "tituloPesadillas" 
+        "imagenPesadillas"
+        "textoPesadillas" 
+        "tituloEstres"
+        "imagenEstres"
+        "textoEstres" ;
+        justify-items: center;
+    }
+
+/*FAQ*/
+
+    .divFaq{
+            background-image: url(../assets/img/fondofloresfaq.jpg);
+                padding: 0.5em;
+                display:grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(8, 0.5fr);
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                justify-items: center;
+                grid-template-areas:
+                " pregUno "
+                " pregDos "
+                " pregTres"
+                " pregCuatro"
+                " pregCinco"
+                " pregSeis"
+                " pregSiete"
+                " pregOcho";
+                div {
+                    h3{
+                        font-size: 1.5em;
+                        margin: 0.5em;
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 1.5em ;
+                        margin: 0.5em;
+                        text-align: center;
+                    }
+                }
+            }
+
+    .fotoFaq{
+        display: none;
+    }
+
+    .fotoFaqDos{
+        display: none;
+    }
+
+    .pregNueve h3{
+        font-size: 1.5em;
+        margin: 0.5em;
+    }
+
+/*CONTACTO*/
+
+.ordenContacto div iframe{
+    width: 70%;
+}
+
+.formulario {
+    margin-left: 0 rem;
+}
+
+}

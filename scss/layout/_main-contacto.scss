@@ -1,0 +1,48 @@
+.ordenContacto{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: $background-secundario;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    div iframe{
+        margin: 0.5em;
+    }
+}
+
+.formulario {
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    padding: 0rem;
+    form div{
+        text-align: left;
+        font-size: 1.2em;
+    }
+}
+
+.margenPedido{
+    margin-bottom: 1.5em;
+}
+
+.redes{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: $fuente-principal;
+    margin-left:1em;
+    margin-right: 1em;
+}
+
+.subtituloContacto{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding:0.5em;
+    text-align: center;
+    background-color: $background-secundario ;
+    animation-name: tituloFormulas;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}

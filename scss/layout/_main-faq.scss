@@ -1,0 +1,72 @@
+.divSupFaq{
+    background-color:  #cb70a1 ;
+    height: 8vh;
+}
+
+.divisionFaq{
+    background-color: $color-division ;
+    height: 2vh;
+}
+
+.divFaq{
+    background-color: #F4ECF7;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+
+.fotoFaq{
+    grid-area: fotoFaq;
+    height: 100%;
+    width: 100%;
+}
+
+.fotoFaqDos{
+    grid-area: fotoFaqDos;
+    height: 100%;
+    width: 100%;
+}
+.pregUno{
+    grid-area: pregUno;
+}
+
+.pregDos{
+    grid-area: pregDos;
+}
+
+.pregTres{
+    grid-area: pregTres;
+}
+
+.pregCuatro{
+    grid-area: pregCuatro;
+}
+
+.pregCinco{
+    grid-area: pregCinco;
+}
+
+.pregSeis{
+    grid-area: pregSeis;
+}
+
+.pregSiete{
+    grid-area: pregSiete;
+}
+
+.pregOcho{
+    grid-area: pregOcho;
+}
+
+.pregNueve{
+    grid-area: pregNueve;
+    background-color: $background-secundario ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}

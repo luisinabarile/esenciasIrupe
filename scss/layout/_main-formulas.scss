@@ -1,0 +1,201 @@
+.divFormulas{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    div {
+        p{
+            margin: 0;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+}
+}
+.subtituloFormulas{
+    background-color: $background-secundario ;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    font-size: 2rem;
+    text-align: center;
+    animation-name: tituloFormulas;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+.sectionDosFormulas{
+    padding-top: 3em; 
+    padding-bottom: 2em;
+    display:grid;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 2rem;
+    h2{
+        margin:0;
+        text-align: center;
+    }
+    p{
+        padding-right: 1em;
+        padding-left: 1em;
+        padding-top: 1em;
+        padding-left: 1.5em;
+        font-weight: light;
+        font-size: 1.5rem;
+    }
+}
+.tituloTimidez{
+    grid-area: tituloTimidez;
+    background-color: #A3E4D7;
+}
+
+.tituloAnsiedad{
+    grid-area:tituloAnsiedad;
+    background-color: #F9E79F;
+}
+
+.imagenAnsiedad{
+    grid-area: imagenAnsiedad;
+}
+
+.textoAnsiedad{
+    grid-area: textoAnsiedad;
+}
+
+.imagenTimidez{
+    grid-area: imagenTimidez;
+}
+
+.textoTimidez{
+    grid-area: textoTimidez;
+}
+
+.tituloInsomnio{
+    grid-area: tituloInsomnio;
+    background-color: #F5B7B1 ;
+}
+
+.tituloTristeza{
+    grid-area: tituloTristeza;
+    background-color: #D7BDE2;
+}
+
+.textoInsomnio{
+    grid-area: textoInsomnio;
+}
+
+.imagenInsomnio{
+    grid-area:imagenInsomnio;
+}
+
+.textoTristeza{
+    grid-area:textoTristeza;
+}
+
+.imagenTristeza{
+    grid-area:imagenTristeza;
+}
+
+.tituloFrustracion{
+    grid-area:tituloFrustracion;
+    background-color: #A2D9CE ;
+}
+
+.tituloSeparacion{
+    grid-area:tituloSeparacion;
+    background-color: #EDBB99;
+}
+
+.textoFrustracion{
+    grid-area:textoFrustracion;
+}
+
+.imagenFrustracion{
+    grid-area:imagenFrustracion;
+}
+
+.textoSeparacion{
+    grid-area:textoSeparacion;
+}
+
+.imagenSeparacion{
+    grid-area:imagenSeparacion;
+}
+
+.tituloAprendizaje{
+    grid-area:tituloAprendizaje;
+    background-color: #7FB3D5;
+}
+
+.tituloMudanza{
+    grid-area:tituloMudanza;
+    background-color: #52BE80;
+}
+
+.textoAprendizaje{
+    grid-area:textoAprendizaje;
+}
+
+.imagenAprendizaje{
+    grid-area:imagenAprendizaje;
+}
+
+.textoMudanza{
+    grid-area:textoMudanza;
+}
+
+.imagenMudanza{
+    grid-area:imagenMudanza;
+}
+
+.tituloMSoledad{
+    grid-area:tituloMSoledad;
+    background-color: #DC7633;
+}
+
+.tituloMFracaso{
+    grid-area:tituloMFracaso;
+    background-color: #AAB7B8;
+}
+
+.imagenMSoledad{
+    grid-area:imagenMSoledad;
+}
+
+.textoMSoledad{
+    grid-area:textoMSoledad;
+}
+
+.textoMFracaso{
+    grid-area: textoMFracaso;
+}
+
+.imagenMFracaso{
+    grid-area:imagenMFracaso;
+}
+
+.tituloPesadillas{
+    grid-area: tituloPesadillas;
+    background-color: #F1948A;
+}
+
+.tituloEstres{
+    grid-area: tituloEstres;
+    background-color: #F7DC6F;
+}
+
+.textoPesadillas{
+    grid-area:textoPesadillas;
+}
+
+.imagenPesadillas{
+    grid-area:imagenPesadillas;
+}
+
+.textoEstres{
+    grid-area: textoEstres;
+}
+
+.imagenEstres{
+    grid-area: imagenEstres;
+}
+

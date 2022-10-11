@@ -1,0 +1,732 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@keyframes tituloFormulas {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.btn-light {
+  background-color: #880E4F;
+  border-color: #880E4F;
+  color: #E8DAEF;
+  font-size: 1.7em;
+}
+
+header {
+  background-color: rgba(171, 178, 185, 0.5294117647);
+  top: 0em;
+  width: 100%;
+  position: sticky;
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: #212F3D;
+  font-size: 1.5em;
+}
+header a {
+  text-decoration: none;
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: #212F3D;
+  font-size: 1.5em;
+}
+
+.tituloLogo {
+  font-family: "Amatic SC";
+  color: #212F3D;
+  font-size: 2.8rem;
+}
+
+.fondoMainIndex {
+  background-image: url("../assets/img/fondoFloresCIeloc.jpg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.fondoMainIndex div {
+  color: rgba(173, 18, 93, 0.5764705882);
+  font-family: "Amatic SC";
+}
+.fondoMainIndex div h1 {
+  font-size: 4em;
+  text-align: center;
+}
+.fondoMainIndex div h2 {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+.fondoMainIndex div a {
+  padding-left: 6em;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  background-color: #F5F5F5;
+  font-style: "Fira Sans Condensed", sans-serif;
+  color: #212F3D;
+}
+
+.tituloConfiguracion {
+  text-align: center;
+  font-size: 3rem;
+  background-color: #E8DAEF;
+}
+
+.seccionUnoLasFlores {
+  background-color: rgba(241, 189, 220, 0.4431372549);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.seccionUnoLasFlores div iframe {
+  margin-top: 0.4em;
+}
+
+.floresAcuarela {
+  height: 5vh;
+  background-color: rgba(241, 189, 220, 0.4431372549);
+}
+
+.floresAcuarelaDos {
+  height: 12vh;
+  background-image: url("../assets/img/Beautiful-watercolor.jpg");
+}
+
+.floresAcuarelaTres {
+  height: 2vh;
+  background-color: #880E4F;
+}
+
+.sectionDosLasFlores {
+  background-color: #E8DAEF;
+}
+.sectionDosLasFlores p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.sectionTresLasFlores {
+  background-color: rgba(241, 189, 220, 0.4431372549);
+}
+.sectionTresLasFlores h2 {
+  color: #F5F5F5;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  background-color: #880E4F;
+  text-align: center;
+}
+.sectionTresLasFlores div {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.sectionTresLasFlores div ul {
+  list-style: none;
+  margin: 1em;
+  line-height: 2.5rem;
+  text-align: center;
+  transition: all 1s;
+}
+.sectionTresLasFlores div ul:hover {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  background-color: #880E4F;
+  color: #FADBD8;
+}
+
+.divFormulas {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.divFormulas div p {
+  margin: 0;
+  text-align: center;
+}
+.divFormulas div a {
+  text-decoration: none;
+}
+
+.subtituloFormulas {
+  background-color: #E8DAEF;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  animation-name: tituloFormulas;
+  animation-duration: 2.5s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.sectionDosFormulas {
+  padding-top: 3em;
+  padding-bottom: 2em;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.sectionDosFormulas h2 {
+  margin: 0;
+  text-align: center;
+}
+.sectionDosFormulas p {
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-left: 1.5em;
+  font-weight: light;
+  font-size: 1.5rem;
+}
+
+.tituloTimidez {
+  grid-area: tituloTimidez;
+  background-color: #A3E4D7;
+}
+
+.tituloAnsiedad {
+  grid-area: tituloAnsiedad;
+  background-color: #F9E79F;
+}
+
+.imagenAnsiedad {
+  grid-area: imagenAnsiedad;
+}
+
+.textoAnsiedad {
+  grid-area: textoAnsiedad;
+}
+
+.imagenTimidez {
+  grid-area: imagenTimidez;
+}
+
+.textoTimidez {
+  grid-area: textoTimidez;
+}
+
+.tituloInsomnio {
+  grid-area: tituloInsomnio;
+  background-color: #F5B7B1;
+}
+
+.tituloTristeza {
+  grid-area: tituloTristeza;
+  background-color: #D7BDE2;
+}
+
+.textoInsomnio {
+  grid-area: textoInsomnio;
+}
+
+.imagenInsomnio {
+  grid-area: imagenInsomnio;
+}
+
+.textoTristeza {
+  grid-area: textoTristeza;
+}
+
+.imagenTristeza {
+  grid-area: imagenTristeza;
+}
+
+.tituloFrustracion {
+  grid-area: tituloFrustracion;
+  background-color: #A2D9CE;
+}
+
+.tituloSeparacion {
+  grid-area: tituloSeparacion;
+  background-color: #EDBB99;
+}
+
+.textoFrustracion {
+  grid-area: textoFrustracion;
+}
+
+.imagenFrustracion {
+  grid-area: imagenFrustracion;
+}
+
+.textoSeparacion {
+  grid-area: textoSeparacion;
+}
+
+.imagenSeparacion {
+  grid-area: imagenSeparacion;
+}
+
+.tituloAprendizaje {
+  grid-area: tituloAprendizaje;
+  background-color: #7FB3D5;
+}
+
+.tituloMudanza {
+  grid-area: tituloMudanza;
+  background-color: #52BE80;
+}
+
+.textoAprendizaje {
+  grid-area: textoAprendizaje;
+}
+
+.imagenAprendizaje {
+  grid-area: imagenAprendizaje;
+}
+
+.textoMudanza {
+  grid-area: textoMudanza;
+}
+
+.imagenMudanza {
+  grid-area: imagenMudanza;
+}
+
+.tituloMSoledad {
+  grid-area: tituloMSoledad;
+  background-color: #DC7633;
+}
+
+.tituloMFracaso {
+  grid-area: tituloMFracaso;
+  background-color: #AAB7B8;
+}
+
+.imagenMSoledad {
+  grid-area: imagenMSoledad;
+}
+
+.textoMSoledad {
+  grid-area: textoMSoledad;
+}
+
+.textoMFracaso {
+  grid-area: textoMFracaso;
+}
+
+.imagenMFracaso {
+  grid-area: imagenMFracaso;
+}
+
+.tituloPesadillas {
+  grid-area: tituloPesadillas;
+  background-color: #F1948A;
+}
+
+.tituloEstres {
+  grid-area: tituloEstres;
+  background-color: #F7DC6F;
+}
+
+.textoPesadillas {
+  grid-area: textoPesadillas;
+}
+
+.imagenPesadillas {
+  grid-area: imagenPesadillas;
+}
+
+.textoEstres {
+  grid-area: textoEstres;
+}
+
+.imagenEstres {
+  grid-area: imagenEstres;
+}
+
+.divSupFaq {
+  background-color: #cb70a1;
+  height: 8vh;
+}
+
+.divisionFaq {
+  background-color: #880E4F;
+  height: 2vh;
+}
+
+.divFaq {
+  background-color: #F4ECF7;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.fotoFaq {
+  grid-area: fotoFaq;
+  height: 100%;
+  width: 100%;
+}
+
+.fotoFaqDos {
+  grid-area: fotoFaqDos;
+  height: 100%;
+  width: 100%;
+}
+
+.pregUno {
+  grid-area: pregUno;
+}
+
+.pregDos {
+  grid-area: pregDos;
+}
+
+.pregTres {
+  grid-area: pregTres;
+}
+
+.pregCuatro {
+  grid-area: pregCuatro;
+}
+
+.pregCinco {
+  grid-area: pregCinco;
+}
+
+.pregSeis {
+  grid-area: pregSeis;
+}
+
+.pregSiete {
+  grid-area: pregSiete;
+}
+
+.pregOcho {
+  grid-area: pregOcho;
+}
+
+.pregNueve {
+  grid-area: pregNueve;
+  background-color: #E8DAEF;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+.ordenContacto {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  background-color: #E8DAEF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+}
+.ordenContacto div iframe {
+  margin: 0.5em;
+}
+
+.formulario {
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+  padding: 0rem;
+}
+.formulario form div {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.margenPedido {
+  margin-bottom: 1.5em;
+}
+
+.redes {
+  text-align: center;
+  font-size: 1.5em;
+  font-style: "Fira Sans Condensed", sans-serif;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.subtituloContacto {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 0.5em;
+  text-align: center;
+  background-color: #E8DAEF;
+  animation-name: tituloFormulas;
+  animation-duration: 2.5s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+footer {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.5em;
+  background-color: #ABB2B9;
+  color: #212F3D;
+  height: 3rem;
+  margin-top: 0rem;
+}
+footer h3 {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 576px) {
+  /*MAIN*/
+  .fondoMainIndex div {
+    position: fixed;
+    top: 10em;
+    left: 10em;
+  }
+  /*PAGINA LAS FLORES*/
+  .fotosCelular {
+    display: none;
+  }
+  .fotosCelularDos {
+    display: none;
+  }
+  .tituloFaq {
+    font-size: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+  /*PAGINA FORMULAS*/
+  .divFormulas {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+  }
+  .divFormulas div a {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #212F3D;
+  }
+  .sectionDosFormulas {
+    grid-template-columns: 30rem;
+    grid-template-rows: 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem 5rem 14rem 14rem;
+    grid-template-areas: "tituloTimidez" "imagenTimidez" "textoTimidez" "tituloAnsiedad" "imagenAnsiedad" "textoAnsiedad" "tituloInsomnio" "imagenInsomnio" "textoInsomnio" "tituloTristeza" "imagenTristeza" "textoTristeza" "tituloFrustracion" "imagenFrustracion" "textoFrustracion" "tituloSeparacion" "imagenSeparacion" "textoSeparacion" "tituloAprendizaje" "imagenAprendizaje" "textoAprendizaje" "tituloMudanza" "imagenMudanza" "textoMudanza" "tituloMSoledad" "imagenMSoledad" "textoMSoledad" "tituloMFracaso" "imagenMFracaso" "textoMFracaso" "tituloPesadillas" "imagenPesadillas" "textoPesadillas" "tituloEstres" "imagenEstres" "textoEstres";
+    justify-items: center;
+  }
+  /*FAQ*/
+  .divFaq {
+    background-image: url(../assets/img/fondofloresfaq.jpg);
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 0.5fr);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: " pregUno " " pregDos " " pregTres" " pregCuatro" " pregCinco" " pregSeis" " pregSiete" " pregOcho";
+  }
+  .divFaq div h3 {
+    font-size: 1.5em;
+    margin: 0.5em;
+    text-align: center;
+  }
+  .divFaq div p {
+    font-size: 1.5em;
+    margin: 0.5em;
+    text-align: center;
+  }
+  .fotoFaq {
+    display: none;
+  }
+  .fotoFaqDos {
+    display: none;
+  }
+  .pregNueve h3 {
+    font-size: 1.5em;
+    margin: 0.5em;
+  }
+  /*CONTACTO*/
+  .ordenContacto div iframe {
+    width: 70%;
+  }
+  .formulario {
+    margin-left: 0 rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /*MAIN*/
+  .fondoMainIndex div {
+    position: fixed;
+    top: 14em;
+    left: 20em;
+  }
+  /*LAS FLORES*/
+  .fotosCelularDos {
+    display: none;
+  }
+  /*PAGINA FORMULAS*/
+  .divFormulas {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+  }
+  .divFormulas div a {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #212F3D;
+  }
+  .sectionDosFormulas {
+    grid-template-columns: 16rem 40rem;
+    grid-template-rows: 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem;
+    grid-template-areas: "tituloTimidez tituloTimidez" "imagenTimidez textoTimidez" "tituloAnsiedad tituloAnsiedad" "imagenAnsiedad textoAnsiedad " "tituloInsomnio tituloInsomnio" "imagenInsomnio textoInsomnio" "tituloTristeza tituloTristeza" "imagenTristeza textoTristeza " "tituloFrustracion tituloFrustracion" "imagenFrustracion textoFrustracion" "tituloSeparacion tituloSeparacion" "imagenSeparacion textoSeparacion" "tituloAprendizaje tituloAprendizaje" "imagenAprendizaje textoAprendizaje" "tituloMudanza tituloMudanza" "imagenMudanza textoMudanza" "tituloMSoledad tituloMSoledad" "imagenMSoledad textoMSoledad" "tituloMFracaso tituloMFracaso" "imagenMFracaso textoMFracaso" "tituloPesadillas tituloPesadillas" "imagenPesadillas textoPesadillas" "tituloEstres tituloEstres" "imagenEstres textoEstres";
+  }
+  /*FAQ*/
+  .divFaq {
+    background-image: url(../assets/img/fondofloresfaq.jpg);
+    padding: 0.5em;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    align-items: center;
+    grid-template-areas: " pregUno pregDos " " pregTres pregCuatro" " pregCinco pregSeis" " pregSiete pregOcho";
+  }
+  .divFaq div h3 {
+    font-size: 1.5em;
+    margin: 0.5em;
+    text-align: center;
+  }
+  .divFaq div p {
+    font-size: 1.5em;
+    margin: 0.5em;
+    text-align: center;
+  }
+  .fotoFaq {
+    display: none;
+  }
+  .fotoFaqDos {
+    display: none;
+  }
+  /*CONTACTO*/
+  .ordenContacto div iframe {
+    width: 80%;
+  }
+  .formulario {
+    margin-left: 0rem;
+  }
+}
+@media screen and (min-width: 993px) {
+  /*INDEX*/
+  .fondoMainIndex div {
+    position: fixed;
+    top: 14em;
+    left: 35em;
+  }
+  /*LAS FLORES*/
+  .sectionDosLasFlores {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  /*FORMULAS*/
+  .sectionDosFormulas {
+    grid-template-columns: 16rem 40rem 40rem 16rem;
+    grid-template-rows: 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem;
+    grid-template-areas: "tituloTimidez tituloTimidez tituloAnsiedad tituloAnsiedad" "imagenTimidez textoTimidez  textoAnsiedad imagenAnsiedad" "tituloInsomnio tituloInsomnio tituloTristeza tituloTristeza" "imagenInsomnio textoInsomnio textoTristeza imagenTristeza" "tituloFrustracion tituloFrustracion tituloSeparacion tituloSeparacion" "imagenFrustracion textoFrustracion  textoSeparacion imagenSeparacion" "tituloAprendizaje tituloAprendizaje tituloMudanza tituloMudanza" "imagenAprendizaje textoAprendizaje textoMudanza imagenMudanza " "tituloMSoledad tituloMSoledad tituloMFracaso tituloMFracaso" "imagenMSoledad textoMSoledad  textoMFracaso imagenMFracaso" "tituloPesadillas tituloPesadillas tituloEstres tituloEstres" "imagenPesadillas textoPesadillas textoEstres imagenEstres";
+  }
+  .divFormulas {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .divFormulas div a {
+    font-size: 1.8rem;
+    color: #F5F5F5;
+  }
+  .divFormulas div :hover {
+    color: #212F3D;
+  }
+  /*FAQ*/
+  .tituloFaq {
+    font-size: 2.5rem;
+  }
+  .divFaq {
+    grid-template-columns: 0.5fr 3fr 3fr 0.5fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "fotoFaq pregUno pregDos fotoFaqDos" "fotoFaq pregTres pregCuatro fotoFaqDos" "fotoFaq pregCinco pregSeis fotoFaqDos" "fotoFaq pregSiete pregOcho fotoFaqDos";
+  }
+  .divFaq div h3 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .divFaq div p {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .pregUno {
+    background-color: #A3E4D7;
+    padding: 1em;
+  }
+  .pregDos {
+    background-color: #F9E79F;
+    padding: 1em;
+  }
+  .pregTres {
+    background-color: #F5B7B1;
+    padding: 1em;
+  }
+  .pregCuatro {
+    background-color: #D7BDE2;
+    padding: 1em;
+  }
+  .pregCinco {
+    background-color: #A2D9CE;
+    padding: 1em;
+  }
+  .pregSeis {
+    background-color: #EDBB99;
+    padding: 1em;
+  }
+  .pregSiete {
+    background-color: #7FB3D5;
+    padding: 1em;
+  }
+  .pregOcho {
+    background-color: #FC9C6C;
+    padding: 1em;
+  }
+  .pregNueve h3 {
+    font-size: 1.5em;
+  }
+  /*CONTACTO*/
+  .formulario {
+    margin-left: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

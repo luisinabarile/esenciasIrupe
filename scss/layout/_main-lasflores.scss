@@ -1,0 +1,80 @@
+body{
+    overflow-x: hidden
+}
+
+section{
+    background-color: $background-principal;
+    font-style: $fuente-principal ;
+    color: $color-letra-principal;
+}
+
+.tituloConfiguracion{
+    text-align: center;
+    font-size: 3rem;
+    background-color: $background-secundario;
+}
+
+.seccionUnoLasFlores{
+    background-color:  #f1bddc71;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    div iframe{
+        margin-top:  0.4em;
+    }
+}
+
+.floresAcuarela{
+    height: 5vh;
+    background-color:  #f1bddc71 ;
+}
+
+.floresAcuarelaDos{
+    height: 12vh;
+    background-image: url("../assets/img/Beautiful-watercolor.jpg");
+}
+
+.floresAcuarelaTres{
+    height: 2vh;
+    background-color: $color-division;
+}
+
+.sectionDosLasFlores{
+    background-color: $background-secundario;
+    p{
+        font-size: 1.5rem; 
+        text-align: center;
+        margin-top:2em;
+        margin-bottom:2em;
+    }
+}
+
+.sectionTresLasFlores{
+    background-color: #f1bddc71  ;
+    h2{
+        color: $background-principal;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        background-color: $color-division;
+        text-align: center;
+    }
+    div{
+        font-size: 1.3rem;
+        @include propiedades-flex(row,center,center,center,flex-start);
+        flex-wrap: wrap;
+        ul{  
+            list-style: none;
+            margin: 1em;
+            line-height: 2.5rem;
+            text-align: center;
+            transition: all 1s;}
+        ul:hover{
+            padding-right: 0.5em;
+            padding-left: 0.5em;
+            background-color:  #880E4F ;
+            color: #FADBD8;
+        }
+    }
+}

@@ -1,0 +1,131 @@
+@media screen and (min-width: 993px) {
+
+/*INDEX*/
+
+.fondoMainIndex div{
+    position: fixed;
+    top: 14em;
+    left: 35em;
+}
+
+/*LAS FLORES*/
+
+.sectionDosLasFlores{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+/*FORMULAS*/
+
+.sectionDosFormulas{
+    grid-template-columns: 16rem 40rem 40rem 16rem;
+    grid-template-rows: 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem;
+    grid-template-areas: 
+    "tituloTimidez tituloTimidez tituloAnsiedad tituloAnsiedad"
+    "imagenTimidez textoTimidez  textoAnsiedad imagenAnsiedad"
+    "tituloInsomnio tituloInsomnio tituloTristeza tituloTristeza"
+    "imagenInsomnio textoInsomnio textoTristeza imagenTristeza"
+    "tituloFrustracion tituloFrustracion tituloSeparacion tituloSeparacion"
+    "imagenFrustracion textoFrustracion  textoSeparacion imagenSeparacion"
+    "tituloAprendizaje tituloAprendizaje tituloMudanza tituloMudanza"
+    "imagenAprendizaje textoAprendizaje textoMudanza imagenMudanza "
+    "tituloMSoledad tituloMSoledad tituloMFracaso tituloMFracaso"
+    "imagenMSoledad textoMSoledad  textoMFracaso imagenMFracaso"
+    "tituloPesadillas tituloPesadillas tituloEstres tituloEstres"
+    "imagenPesadillas textoPesadillas textoEstres imagenEstres";
+}
+
+.divFormulas{
+    flex-direction: row;
+    flex-wrap: wrap;
+    div{
+        a{
+            font-size: 1.8rem;
+            color:#F5F5F5;
+        }
+        :hover{
+            color: #212F3D;
+        }
+        }
+    }
+
+/*FAQ*/
+
+.tituloFaq{
+    font-size: 2.5rem;
+}
+.divFaq{
+    grid-template-columns:0.5fr 3fr 3fr 0.5fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas:
+    "fotoFaq pregUno pregDos fotoFaqDos"
+    "fotoFaq pregTres pregCuatro fotoFaqDos"
+    "fotoFaq pregCinco pregSeis fotoFaqDos"
+    "fotoFaq pregSiete pregOcho fotoFaqDos";
+    div {
+            h3 {
+                font-size: 1.8em;
+                text-align: center;
+            }
+            p {
+                font-size: 1.8em;
+                text-align: center;
+            }
+        }
+}
+
+.pregUno{
+    background-color:  #A3E4D7 ;
+    padding: 1em;
+}
+
+.pregDos{
+    background-color: #F9E79F;
+    padding:1em;
+}
+
+.pregTres{
+    background-color: #F5B7B1; 
+    padding:1em;
+}
+
+.pregCuatro{
+    background-color:  #D7BDE2;
+    padding:1em;
+}
+
+.pregCinco{
+    background-color:  #A2D9CE;
+    padding:1em;
+}
+
+.pregSeis{
+    background-color:  #EDBB99;
+    padding:1em;
+}
+
+.pregSiete{
+    background-color:  #7FB3D5 ;
+    padding:1em;
+}
+
+.pregOcho{
+    background-color: #FC9C6C ;
+    padding:1em;
+}
+
+.pregNueve h3{
+    font-size: 1.5em;
+}
+
+/*CONTACTO*/
+
+.formulario {
+    margin-left: 2rem;
+}
+
+}
