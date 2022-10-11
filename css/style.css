@@ -29,6 +29,11 @@ html {
   font-size: 1.7em;
 }
 
+.btn-primary {
+  background-color: #880E4F;
+  border-color: #880E4F;
+}
+
 header {
   background-color: rgba(171, 178, 185, 0.5294117647);
   top: 0em;
@@ -469,7 +474,7 @@ section {
 
 .redes {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-style: "Fira Sans Condensed", sans-serif;
   margin-left: 1em;
   margin-right: 1em;
