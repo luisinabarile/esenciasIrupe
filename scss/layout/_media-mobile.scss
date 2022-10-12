@@ -1,6 +1,11 @@
 @media screen and (max-width: 576px) {
 
-    
+    .tituloConfiguracion{
+        text-align: center;
+        font-size: 2rem;
+        background-color: $background-secundario;
+    }
+
     /*MAIN*/
 
     .fondoMainIndex div{
@@ -19,10 +24,21 @@
         display: none;
     }
 
-    .tituloFaq{
-        font-size: 2em;
-        padding-left: 6em;
-        padding-right: 6em;
+    .sectionDosLasFlores p{
+        font-size: 1.2em ;
+    }
+
+    .floresAcuarelaDos{
+        height: 9vh;
+    }
+
+    .sectionTresLasFlores{
+        h2{
+            font-size: 1.5rem;
+        }
+        div{
+            font-size: 1.2rem;
+        }
     }
 
 /*PAGINA FORMULAS*/
@@ -82,40 +98,55 @@
         justify-items: center;
     }
 
+    .subtituloFormulas{
+        font-size: 1.5rem;
+    }
+
 /*FAQ*/
+
+    .tituloFaq{
+        font-size: 2em;
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+
+    .divSupFaq{
+    height: 6vh;
+    }
 
     .divFaq{
             background-image: url(../assets/img/fondofloresfaq.jpg);
-                padding: 0.5em;
-                display:grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: repeat(8, 0.5fr);
-                justify-content: center;
-                align-content: center;
-                align-items: center;
-                justify-items: center;
-                grid-template-areas:
-                " pregUno "
-                " pregDos "
-                " pregTres"
-                " pregCuatro"
-                " pregCinco"
-                " pregSeis"
-                " pregSiete"
-                " pregOcho";
-                div {
-                    h3{
-                        font-size: 1.5em;
-                        margin: 0.5em;
-                        text-align: center;
-                    }
-                    p{
-                        font-size: 1.5em ;
-                        margin: 0.5em;
-                        text-align: center;
-                    }
+            background-position: bottom;
+            padding: 0.5em;
+            display:grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(8, 0.5fr);
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            justify-items: center;
+            grid-template-areas:
+            " pregUno "
+            " pregDos "
+            " pregTres"
+            " pregCuatro"
+            " pregCinco"
+            " pregSeis"
+            " pregSiete"
+            " pregOcho";
+            div {
+                h3{
+                    font-size: 1.2em;
+                    margin: 0.5em;
+                    text-align: center;
+                }
+                p{
+                    font-size: 1.2em ;
+                    margin: 0.5em;
+                    text-align: center;
                 }
             }
+        }
 
     .fotoFaq{
         display: none;
@@ -125,19 +156,28 @@
         display: none;
     }
 
-    .pregNueve h3{
-        font-size: 1.5em;
+    .pregNueve{
+        font-size: 1.2em;
         margin: 0.5em;
     }
 
 /*CONTACTO*/
 
 .ordenContacto div iframe{
-    width: 70%;
+    padding-left: 2.5em;
+    width: 80%;
 }
 
 .formulario {
     margin-left: 0 rem;
+}
+
+.subtituloContacto{
+    font-size: 1.3em;
+}
+
+.redes{
+    font-size: 1.5em;
 }
 
 }

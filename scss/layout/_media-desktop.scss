@@ -1,5 +1,11 @@
 @media screen and (min-width: 993px) {
 
+.tituloConfiguracion{
+    text-align: center;
+    font-size: 3rem;
+    background-color: $background-secundario;
+}
+
 /*INDEX*/
 
 .fondoMainIndex div{
@@ -13,6 +19,22 @@
 .sectionDosLasFlores{
     padding-left: 6rem;
     padding-right: 6rem;
+    p{
+        font-size: 1.5rem; 
+    }
+}
+
+.floresAcuarelaDos{
+    height: 12vh;
+}
+
+.sectionTresLasFlores{
+    h2{
+        font-size: 2rem;
+    }
+    div{
+        font-size: 1.3rem;
+    }
 }
 
 /*FORMULAS*/
@@ -49,7 +71,16 @@
         }
     }
 
+    .subtituloFormulas{
+        font-size: 2rem;
+    }
+
+
 /*FAQ*/
+
+.divSupFaq{
+    height: 8vh;
+}
 
 .tituloFaq{
     font-size: 2.5rem;
@@ -118,11 +149,15 @@
     padding:1em;
 }
 
-.pregNueve h3{
+.pregNueve{
     font-size: 1.5em;
 }
 
 /*CONTACTO*/
+
+.redes{
+    font-size: 1.8em;
+}
 
 .formulario {
     margin-left: 2rem;

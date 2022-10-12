@@ -1,5 +1,11 @@
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
+    .tituloConfiguracion{
+        text-align: center;
+        font-size: 3rem;
+        background-color: $background-secundario;
+    }
+
     /*MAIN*/
 
     .fondoMainIndex div{
@@ -12,6 +18,23 @@
 
     .fotosCelularDos{
         display: none;
+    }
+
+    .sectionDosLasFlores p{
+        font-size: 1.5em ;
+    }
+
+    .floresAcuarelaDos{
+        height: 12vh;
+    }
+
+    .sectionTresLasFlores{
+        h2{
+            font-size: 2rem;
+        }
+        div{
+            font-size: 1.3rem;
+        }
     }
 
     /*PAGINA FORMULAS*/
@@ -57,8 +80,16 @@
         "tituloEstres tituloEstres"
         "imagenEstres textoEstres";
     }
+
+    .subtituloFormulas{
+        font-size: 2rem;
+    }
+
     /*FAQ*/
 
+    .divSupFaq{
+        height: 8vh;
+    }
     
     .divFaq{
         background-image: url(../assets/img/fondofloresfaq.jpg);
@@ -94,6 +125,10 @@
         display: none;
     }
 
+    .pregNueve{
+        font-size: 1.5em;
+    }
+
 /*CONTACTO*/
 
 .ordenContacto div iframe{
@@ -102,6 +137,10 @@
 
 .formulario {
     margin-left: 0rem;
+}
+
+.redes{
+    font-size: 1.8em;
 }
 
 }
