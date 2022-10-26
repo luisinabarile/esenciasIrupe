@@ -9,9 +9,7 @@
     /*INDEX*/
 
     .fondoMainIndex div{
-        position: fixed;
-        top: 14em;
-        left: 35em;
+        padding-left: 30em;
     }
 
     /*LAS FLORES*/
@@ -65,13 +63,16 @@
             :hover{
                 color: #212F3D;
             }
-            }
         }
+    }
 
-        .subtituloFormulas{
-            font-size: 2rem;
-        }
-
+    .subtituloFormulas{
+        font-size: 2rem;
+        animation-name: tituloFormulas;
+        animation-duration: 2.5s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+    }
 
     /*FAQ*/
 
@@ -90,14 +91,13 @@
 
     .dudasDos {
         h2{
-        height: 30vh;
-        padding-top: 1em;
-    }
+            height: 30vh;
+            padding-top: 1em;
+        }
         h3{
             padding-top: 1em;
             height: 10vh;
         }
-
     }
 
     .divFaq{
@@ -109,13 +109,13 @@
         "fotoFaq pregCinco pregSeis fotoFaqDos"
         "fotoFaq pregSiete pregOcho fotoFaqDos";
         div {
-                h3 {
-                    font-size: 1.8em;
-                }
-                p {
-                    font-size: 1.8em;
-                }
+            h3 {
+                font-size: 1.8em;
             }
+            p {
+                font-size: 1.8em;
+            }
+        }
     }
 
     .pregUno{
@@ -162,6 +162,13 @@
 
     .formulario {
         margin-left: 2rem;
+    }
+
+    .subtituloContacto{
+        animation-name: tituloFormulas;
+        animation-duration: 2.5s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
     }
 
 

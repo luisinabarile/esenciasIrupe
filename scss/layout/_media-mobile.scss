@@ -12,12 +12,10 @@
         display:none;
     }
 
-    /*MAIN*/
+    /*INDEX*/
 
     .fondoMainIndex div{
-        position: fixed;
-        top: 10em;
-        left: 10em;
+        padding-left: 10em;
     }
 
     /*PAGINA LAS FLORES*/
@@ -136,13 +134,13 @@
 
     .dudasDos {
         h2{
-        height: 20vh;        
-        padding-top: 1em;
-    }
+            height: 20vh;        
+            padding-top: 1em;
+        }
         h3{
-        padding-top: 1em;
-        height: 10vh;
-    }
+            padding-top: 0.5em;
+            height: 10vh;
+        }
     }
 
 
@@ -218,6 +216,7 @@
 
     /*CONTACTO*/
 
+    
     .formulario {
         margin-left: 0 rem;
         div div img{

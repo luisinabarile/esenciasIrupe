@@ -29,17 +29,13 @@
         a{
             text-decoration: none;
         }
-}
+    }
 }
 .subtituloFormulas{
     background-color: $background-secundario ;
     margin-top: 1rem;
     margin-bottom:1rem;
     text-align: center;
-    animation-name: tituloFormulas;
-    animation-duration: 2.5s;
-    animation-delay: 0.5s;
-    animation-iteration-count: infinite;
 }
 .sectionDosFormulas{
     padding-top: 3em; 

@@ -75,18 +75,22 @@ header a {
   color: #880E4F;
   font-family: "Amatic SC";
 }
+.fondoMainIndex div {
+  padding-top: 4em;
+}
 .fondoMainIndex div h1 {
   font-size: 4em;
-  text-align: center;
+  text-align: left;
 }
 .fondoMainIndex div h2 {
   font-size: 3em;
-  text-align: center;
+  text-align: left;
   padding-bottom: 0.5em;
+  padding-left: 1em;
 }
-.fondoMainIndex div p a {
+.fondoMainIndex div p {
+  padding-left: 5em;
   font-size: 1em;
-  padding-left: 4.5em;
 }
 
 body {
@@ -217,10 +221,6 @@ section {
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
-  animation-name: tituloFormulas;
-  animation-duration: 2.5s;
-  animation-delay: 0.5s;
-  animation-iteration-count: infinite;
 }
 
 .sectionDosFormulas {
@@ -562,10 +562,6 @@ section {
   padding: 0.5em;
   text-align: center;
   background-color: #E8DAEF;
-  animation-name: tituloFormulas;
-  animation-duration: 2.5s;
-  animation-delay: 0.5s;
-  animation-iteration-count: infinite;
 }
 
 footer {
@@ -598,11 +594,9 @@ footer nav {
   .bariloche {
     display: none;
   }
-  /*MAIN*/
+  /*INDEX*/
   .fondoMainIndex div {
-    position: fixed;
-    top: 10em;
-    left: 10em;
+    padding-left: 10em;
   }
   /*PAGINA LAS FLORES*/
   .seccionUnoLasFlores {
@@ -669,7 +663,7 @@ footer nav {
     padding-top: 1em;
   }
   .dudasDos h3 {
-    padding-top: 1em;
+    padding-top: 0.5em;
     height: 10vh;
   }
   .divFaq {
@@ -740,11 +734,9 @@ footer nav {
     font-size: 3rem;
     background-color: #E8DAEF;
   }
-  /*MAIN*/
+  /*INDEX*/
   .fondoMainIndex div {
-    position: fixed;
-    top: 14em;
-    left: 20em;
+    padding-left: 30em;
   }
   /*LAS FLORES*/
   .fotosCelularDos {
@@ -855,9 +847,7 @@ footer nav {
   }
   /*INDEX*/
   .fondoMainIndex div {
-    position: fixed;
-    top: 14em;
-    left: 35em;
+    padding-left: 30em;
   }
   /*LAS FLORES*/
   .sectionDosLasFlores {
@@ -892,6 +882,10 @@ footer nav {
   }
   .subtituloFormulas {
     font-size: 2rem;
+    animation-name: tituloFormulas;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
   }
   /*FAQ*/
   .divSupFaq {
@@ -956,6 +950,12 @@ footer nav {
   }
   .formulario {
     margin-left: 2rem;
+  }
+  .subtituloContacto {
+    animation-name: tituloFormulas;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
   }
 }
 

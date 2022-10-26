@@ -6,13 +6,12 @@
         background-color: $background-secundario;
     }
 
-    /*MAIN*/
+    /*INDEX*/
 
     .fondoMainIndex div{
-        position: fixed;
-        top: 14em;
-        left: 20em;
+        padding-left: 30em;
     }
+
 
     /*LAS FLORES*/
 
@@ -97,15 +96,15 @@
     }
     
     .dudasDos{
-    h2{
-        height: 20vh;
-        padding-top: 1.5em;
+        h2{
+            height: 20vh;
+            padding-top: 1.5em;
+        }
+        h3{
+            padding-top: 0.8em;
+            height: 5vh;
+        }
     }
-    h3{
-        padding-top: 0.8em;
-        height: 5vh;
-    }
-}
 
     .divSupFaq{
         height: 3vh;
