@@ -1,30 +1,35 @@
+.imagenBariloche{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-image:url(../assets/img/_MG_2527.jpg) ;
+}
+
 .ordenContacto{
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
     background-color: $background-secundario;
-    display: flex;
-    flex-direction: row;
-    justify-content: center ;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    align-content: flex-start;
+    padding-bottom: 3em;
     div iframe{
-        margin: 0.5em;
+        width:100%;
+        margin-bottom: 2em;
+    }
+    h2{
+        font-family: $fuente-principal ;
+        color: $color-letra-principal;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 2em;
     }
 }
 
 .formulario {
-    margin-right: 4rem;
-    margin-bottom: 2rem;
     padding: 0rem;
     form div{
         text-align: left;
         font-size: 1.2em;
     }
-}
-
-.margenPedido{
-    margin-bottom: 1.5em;
 }
 
 .redes{

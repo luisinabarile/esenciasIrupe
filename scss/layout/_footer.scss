@@ -1,11 +1,19 @@
 footer{
     font-family: $fuente-principal ;
     font-size: $tamano-letra-header;
-    background-color: #ABB2B9 ;
+    background-color: $background-footer ;
     color: $color-letra-principal;
-    height: 3rem;
+    height: 5rem;
     margin-top: 0rem;
-    h3{
+    p{
         margin-bottom: 0;
+        padding-top: 1em;
+    }
+    nav{
+        position:fixed;
+        bottom: 4em;
+        left:1em;
+        background-color: $background-secundario;
+        border-radius: 1em;
     }
 }

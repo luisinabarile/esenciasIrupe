@@ -1,166 +1,168 @@
 @media screen and (min-width: 993px) {
 
-.tituloConfiguracion{
-    text-align: center;
-    font-size: 3rem;
-    background-color: $background-secundario;
-}
-
-/*INDEX*/
-
-.fondoMainIndex div{
-    position: fixed;
-    top: 14em;
-    left: 35em;
-}
-
-/*LAS FLORES*/
-
-.sectionDosLasFlores{
-    padding-left: 6rem;
-    padding-right: 6rem;
-    p{
-        font-size: 1.5rem; 
+    .tituloConfiguracion{
+        text-align: center;
+        font-size: 3rem;
+        background-color: $background-secundario;
     }
-}
 
-.floresAcuarelaDos{
-    height: 12vh;
-}
+    /*INDEX*/
 
-.sectionTresLasFlores{
-    h2{
-        font-size: 2rem;
+    .fondoMainIndex div{
+        position: fixed;
+        top: 14em;
+        left: 35em;
     }
-    div{
-        font-size: 1.3rem;
-    }
-}
 
-/*FORMULAS*/
+    /*LAS FLORES*/
 
-.sectionDosFormulas{
-    grid-template-columns: 16rem 40rem 40rem 16rem;
-    grid-template-rows: 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem;
-    grid-template-areas: 
-    "tituloTimidez tituloTimidez tituloAnsiedad tituloAnsiedad"
-    "imagenTimidez textoTimidez  textoAnsiedad imagenAnsiedad"
-    "tituloInsomnio tituloInsomnio tituloTristeza tituloTristeza"
-    "imagenInsomnio textoInsomnio textoTristeza imagenTristeza"
-    "tituloFrustracion tituloFrustracion tituloSeparacion tituloSeparacion"
-    "imagenFrustracion textoFrustracion  textoSeparacion imagenSeparacion"
-    "tituloAprendizaje tituloAprendizaje tituloMudanza tituloMudanza"
-    "imagenAprendizaje textoAprendizaje textoMudanza imagenMudanza "
-    "tituloMSoledad tituloMSoledad tituloMFracaso tituloMFracaso"
-    "imagenMSoledad textoMSoledad  textoMFracaso imagenMFracaso"
-    "tituloPesadillas tituloPesadillas tituloEstres tituloEstres"
-    "imagenPesadillas textoPesadillas textoEstres imagenEstres";
-}
-
-.divFormulas{
-    flex-direction: row;
-    flex-wrap: wrap;
-    div{
-        a{
-            font-size: 1.8rem;
-            color:#F5F5F5;
-        }
-        :hover{
-            color: #212F3D;
-        }
+    .sectionDosLasFlores{
+        padding-left: 6rem;
+        padding-right: 6rem;
+        p{
+            font-size: 1.5rem; 
         }
     }
 
-    .subtituloFormulas{
-        font-size: 2rem;
+
+    .sectionTresLasFlores{
+        h2{
+            font-size: 2rem;
+        }
+        div{
+            font-size: 1.3rem;
+        }
     }
 
+    /*FORMULAS*/
 
-/*FAQ*/
+    .sectionDosFormulas{
+        grid-template-columns: 16rem 40rem 40rem 16rem;
+        grid-template-rows: 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem 5rem 14rem;
+        grid-template-areas: 
+        "tituloTimidez tituloTimidez tituloAnsiedad tituloAnsiedad"
+        "imagenTimidez textoTimidez  textoAnsiedad imagenAnsiedad"
+        "tituloInsomnio tituloInsomnio tituloTristeza tituloTristeza"
+        "imagenInsomnio textoInsomnio textoTristeza imagenTristeza"
+        "tituloFrustracion tituloFrustracion tituloSeparacion tituloSeparacion"
+        "imagenFrustracion textoFrustracion  textoSeparacion imagenSeparacion"
+        "tituloAprendizaje tituloAprendizaje tituloMudanza tituloMudanza"
+        "imagenAprendizaje textoAprendizaje textoMudanza imagenMudanza "
+        "tituloMSoledad tituloMSoledad tituloMFracaso tituloMFracaso"
+        "imagenMSoledad textoMSoledad  textoMFracaso imagenMFracaso"
+        "tituloPesadillas tituloPesadillas tituloEstres tituloEstres"
+        "imagenPesadillas textoPesadillas textoEstres imagenEstres";
+    }
 
-.divSupFaq{
-    height: 8vh;
-}
-
-.tituloFaq{
-    font-size: 2.5rem;
-}
-.divFaq{
-    grid-template-columns:0.5fr 3fr 3fr 0.5fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    grid-template-areas:
-    "fotoFaq pregUno pregDos fotoFaqDos"
-    "fotoFaq pregTres pregCuatro fotoFaqDos"
-    "fotoFaq pregCinco pregSeis fotoFaqDos"
-    "fotoFaq pregSiete pregOcho fotoFaqDos";
-    div {
-            h3 {
-                font-size: 1.8em;
-                text-align: center;
+    .divFormulas{
+        flex-direction: row;
+        flex-wrap: wrap;
+        div{
+            a{
+                font-size: 1.8rem;
+                color:#F5F5F5;
             }
-            p {
-                font-size: 1.8em;
-                text-align: center;
+            :hover{
+                color: #212F3D;
+            }
             }
         }
-}
 
-.pregUno{
-    background-color:  #A3E4D7 ;
-    padding: 1em;
-}
+        .subtituloFormulas{
+            font-size: 2rem;
+        }
 
-.pregDos{
-    background-color: #F9E79F;
-    padding:1em;
-}
 
-.pregTres{
-    background-color: #F5B7B1; 
-    padding:1em;
-}
+    /*FAQ*/
 
-.pregCuatro{
-    background-color:  #D7BDE2;
-    padding:1em;
-}
+    .divSupFaq{
+        height: 8vh;
+    }
 
-.pregCinco{
-    background-color:  #A2D9CE;
-    padding:1em;
-}
+    .tituloFaq{
+        font-size: 2.5rem;
+    }
 
-.pregSeis{
-    background-color:  #EDBB99;
-    padding:1em;
-}
+    .dudas{
+        padding-top: 9em;
+        height: 60vh;
+    }
 
-.pregSiete{
-    background-color:  #7FB3D5 ;
-    padding:1em;
-}
+    .dudasDos {
+        h2{
+        height: 30vh;
+        padding-top: 1em;
+    }
+        h3{
+            padding-top: 1em;
+            height: 10vh;
+        }
 
-.pregOcho{
-    background-color: #FC9C6C ;
-    padding:1em;
-}
+    }
 
-.pregNueve{
-    font-size: 1.5em;
-}
+    .divFaq{
+        grid-template-columns:0.5fr 3fr 3fr 0.5fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr;
+        grid-template-areas:
+        "fotoFaq pregUno pregDos fotoFaqDos"
+        "fotoFaq pregTres pregCuatro fotoFaqDos"
+        "fotoFaq pregCinco pregSeis fotoFaqDos"
+        "fotoFaq pregSiete pregOcho fotoFaqDos";
+        div {
+                h3 {
+                    font-size: 1.8em;
+                }
+                p {
+                    font-size: 1.8em;
+                }
+            }
+    }
 
-/*CONTACTO*/
+    .pregUno{
+        padding: 1em;
+    }
 
-.redes{
-    font-size: 1.8em;
-}
+    .pregDos{
+        padding:1em;
+    }
 
-.formulario {
-    margin-left: 2rem;
-}
+    .pregTres{
+        padding:1em;
+    }
+
+    .pregCuatro{
+        padding:1em;
+    }
+
+    .pregCinco{
+        padding:1em;
+    }
+
+    .pregSeis{
+        padding:1em;
+    }
+
+    .pregSiete{
+        padding:1em;
+    }
+
+    .pregOcho{
+        padding:1em;
+    }
+
+    .pregNueve{
+        font-size: 1.5em;
+    }
+
+    /*CONTACTO*/
+
+    .redes{
+        font-size: 1.8em;
+    }
+
+    .formulario {
+        margin-left: 2rem;
+    }
+
 
 }

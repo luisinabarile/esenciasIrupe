@@ -39,6 +39,10 @@
 
     /*PAGINA FORMULAS*/
 
+    .fondoFormulas{
+        background-position: center;
+    }
+
     .divFormulas{
         flex-direction: column;
         flex-wrap: nowrap;
@@ -87,60 +91,89 @@
 
     /*FAQ*/
 
+    .dudas{
+        padding-top: 14em;
+        height: 40vh;
+    }
+    
+    .dudasDos{
+    h2{
+        height: 20vh;
+        padding-top: 1.5em;
+    }
+    h3{
+        padding-top: 0.8em;
+        height: 5vh;
+    }
+}
+
     .divSupFaq{
-        height: 8vh;
+        height: 3vh;
     }
     
     .divFaq{
-        background-image: url(../assets/img/fondofloresfaq.jpg);
-        padding: 0.5em;
-        grid-template-columns: 5fr 5fr;
+        grid-template-columns: 0.2fr 3fr 3fr 0.2fr;
         grid-template-rows: 2fr 2fr 2fr 2fr;
-        align-items: center;
         grid-template-areas:
-        " pregUno pregDos "
-        " pregTres pregCuatro"
-        " pregCinco pregSeis"
-        " pregSiete pregOcho";
+        "fotoFaq pregUno pregDos fotoFaqDos"
+        "fotoFaq pregTres pregCuatro fotoFaqDos"
+        "fotoFaq pregCinco pregSeis fotoFaqDos"
+        "fotoFaq pregSiete pregOcho fotoFaqDos";
         div {
             h3{
                 font-size: 1.5em;
-                margin: 0.5em;
-                text-align: center;
             }
             p{
                 font-size: 1.5em ;
-                margin: 0.5em;
-                text-align: center;
             }
         }
     }
 
+    .pregUno{
+        margin:1em;
+    }
     
-    .fotoFaq{
-        display: none;
+    .pregDos{
+        margin:1em;
     }
-
-    .fotoFaqDos{
-        display: none;
+    
+    .pregTres{
+        margin:1em;
     }
-
+    
+    .pregCuatro{
+        margin:1em;
+    }
+    
+    .pregCinco{
+        margin:1em;
+    }
+    
+    .pregSeis{
+        margin:1em;
+    }
+    
+    .pregSiete{
+        margin:1em;
+    }
+    
+    .pregOcho{
+        margin:1em;
+    }
+    
     .pregNueve{
         font-size: 1.5em;
     }
 
-/*CONTACTO*/
+    /*CONTACTO*/
 
-.ordenContacto div iframe{
-    width: 80%;
-}
+    .formulario {
+        margin-left: 0rem;
+    }
 
-.formulario {
-    margin-left: 0rem;
-}
+    .redes{
+        font-size: 1.8em;
+    }
 
-.redes{
-    font-size: 1.8em;
-}
 
 }

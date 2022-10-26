@@ -8,6 +8,29 @@ section{
     color: $color-letra-principal;
 }
 
+.fondoLasFlores{
+    background-image: url("../assets/img/cosmos-flowers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh ;
+    div{
+        padding-top: 5em;
+        padding-left: 8em;
+        h2{
+            font-size: 5em;
+            margin:0;
+            text-align: left;
+            font-family: $fuente-logo;
+            }
+        p{
+            padding-top: 0.5em;
+            padding-left: 6em ;
+            padding-right: 0;
+        }
+    }
+}
+
 .seccionUnoLasFlores{
     background-color:  #f1bddc71;
     display:flex;
@@ -18,15 +41,6 @@ section{
     div iframe{
         margin-top:  0.4em;
     }
-}
-
-.floresAcuarela{
-    height: 5vh;
-    background-color:  #f1bddc71 ;
-}
-
-.floresAcuarelaDos{
-    background-image: url("../assets/img/Beautiful-watercolor.jpg");
 }
 
 .floresAcuarelaTres{

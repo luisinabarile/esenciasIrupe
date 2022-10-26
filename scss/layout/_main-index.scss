@@ -1,24 +1,25 @@
 .fondoMainIndex {
     background-image: url("../assets/img/fondoFloresCIeloc.jpg");
-    background-position:bottom right;
+    background-position:right;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh ;
-    div {
-        color:#ad125d93;
-        font-family: $fuente-logo;
-            h1{
-                font-size: 4em;
-                text-align: center
+    height: 120vh ;
+    color:$color-division;
+    font-family: $fuente-logo;
+    div{
+        h1{
+            font-size: 4em;
+            text-align: center;
             }
             h2{
                 font-size: 3em;
                 text-align: center;
                 padding-bottom: 0.5em;
             }
-            a{
-                padding-left: 6em;
+            p a{
+                font-size: 1em;
+                padding-left: 4.5em;
             }
         }
 }
