@@ -135,7 +135,7 @@
     .dudasDos {
         h2{
             height: 20vh;        
-            padding-top: 1em;
+            padding-top: 0.9em;
         }
         h3{
             padding-top: 0.5em;
@@ -216,7 +216,10 @@
 
     /*CONTACTO*/
 
-    
+    .colMobile{
+        display: none;
+    }
+
     .formulario {
         margin-left: 0 rem;
         div div img{
@@ -230,6 +233,18 @@
 
     .redes{
         font-size: 1.5em;
+    }
+
+    .ordenContacto div iframe{
+        width:100%;
+    }
+
+    .nevandouno{
+        display: none;
+    }
+
+    .nevandodos{
+        display:none
     }
 
 }

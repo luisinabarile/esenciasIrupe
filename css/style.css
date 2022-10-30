@@ -529,7 +529,6 @@ section {
   padding-bottom: 3em;
 }
 .ordenContacto div iframe {
-  width: 100%;
   margin-bottom: 2em;
 }
 .ordenContacto h2 {
@@ -660,7 +659,7 @@ footer nav {
   }
   .dudasDos h2 {
     height: 20vh;
-    padding-top: 1em;
+    padding-top: 0.9em;
   }
   .dudasDos h3 {
     padding-top: 0.5em;
@@ -715,6 +714,9 @@ footer nav {
     margin: 0.5em;
   }
   /*CONTACTO*/
+  .colMobile {
+    display: none;
+  }
   .formulario {
     margin-left: 0 rem;
   }
@@ -726,6 +728,15 @@ footer nav {
   }
   .redes {
     font-size: 1.5em;
+  }
+  .ordenContacto div iframe {
+    width: 100%;
+  }
+  .nevandouno {
+    display: none;
+  }
+  .nevandodos {
+    display: none;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -837,6 +848,15 @@ footer nav {
   }
   .redes {
     font-size: 1.8em;
+  }
+  .ordenContacto div iframe {
+    width: 100%;
+  }
+  .nevandouno {
+    display: none;
+  }
+  .nevandodos {
+    display: none;
   }
 }
 @media screen and (min-width: 993px) {
@@ -956,6 +976,22 @@ footer nav {
     animation-duration: 2.5s;
     animation-delay: 0.5s;
     animation-iteration-count: infinite;
+  }
+  .nevando, .nevandodos, .nevandouno {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2em;
+    width: 30%;
+  }
+  .nevandouno {
+    background-image: url(../assets/img/6ytum0.gif);
+  }
+  .nevandodos {
+    background-image: url(../assets/img/tronador.jpg);
+  }
+  .ordenContacto div iframe {
+    width: 90%;
   }
 }
 

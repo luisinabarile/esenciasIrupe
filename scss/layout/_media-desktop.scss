@@ -171,5 +171,27 @@
         animation-iteration-count: infinite;
     }
 
+    .nevando{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 2em;
+        width:30%;
+    }
+
+    .nevandouno{
+        @extend .nevando;
+        background-image: url(../assets/img/6ytum0.gif);
+    }
+    
+    .nevandodos{
+        @extend .nevando;
+        background-image: url(../assets/img/tronador.jpg);
+    }
+
+
+    .ordenContacto div iframe{
+        width:90%;
+    }
 
 }
